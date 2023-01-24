@@ -20,7 +20,7 @@
     color:red;
 }
 
-/* .yes{
+.yes{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     margin-top: 25px;
@@ -34,7 +34,7 @@
     margin-top: 25px;;
     color:darkred;
     font-weight:bold;
-} */
+}
 
 .select{
     font-family: 'Roboto Mono', monospace;
@@ -82,3 +82,69 @@
 }
 
 .respond:hover {opacity: 0.6}
+
+#parrNo {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#howMany {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.numberButton {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border:2px solid blacl;
+    background-color: white;
+    color: black;
+    width: 140px;
+    height: 60px;
+    padding: 15px 32px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.numberButton:hover {opacity: 0.6}
+
+.emailForm {
+    font-size: 5;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+    margin-top: 35px;
+    width: 100%;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+}
+
+.bold {
+    font-style:bold;
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin:auto;
+}
+
