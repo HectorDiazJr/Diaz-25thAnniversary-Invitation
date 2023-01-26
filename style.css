@@ -188,7 +188,7 @@
   /* display: inline-block; */
   font-size: 16px;
   margin: 6px 2px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   /* margin-bottom: 25px;
         margin: auto; */
   cursor: pointer;
@@ -198,4 +198,11 @@
 
 .respond:hover {
   opacity: 0.6;
+}
+
+.kids {
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
