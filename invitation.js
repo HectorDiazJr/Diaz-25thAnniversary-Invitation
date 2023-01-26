@@ -16,7 +16,6 @@
 
 $("#yes").on("click", function (event) {
   $(".guestAttending").show();
-  $("#header").html("Glad you can make it.");
   $("#header").addClass("yes");
   $(".attending").hide();
   $("#yes").hide();
@@ -29,11 +28,13 @@ $("#yes").on("click", function (event) {
     $("#guest1").show();
     $("#kids").show();
     $(".sendButtons").show();
+    $("#header").html("Glad you can make it.");
   } else if (numGuestInt === 2) {
     $("#guest1").show();
     $("#guest2").show();
     $("#kids").show();
     $(".sendButtons").show();
+    $("#header").html("Glad you can make it.");
   } else if (numGuestInt === 3) {
     $("#guest1").show();
     $("#guest2").show();
@@ -47,6 +48,7 @@ $("#yes").on("click", function (event) {
     $("#guest4").show();
     $("#kids").show();
     $(".sendButtons").show();
+    $("#header").html("Glad you can make it.");
   } else if (numGuestInt === 5) {
     $("#guest1").show();
     $("#guest2").show();
@@ -55,6 +57,7 @@ $("#yes").on("click", function (event) {
     $("#guest5").show();
     $("#kids").show();
     $(".sendButtons").show();
+    $("#header").html("Glad you can make it.");
   } else {
     alert("Please enter the correct number of guest");
     $(".attending").show();
