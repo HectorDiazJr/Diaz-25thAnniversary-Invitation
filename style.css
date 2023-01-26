@@ -1,6 +1,10 @@
-.navbar {
+.navbar{
   font-family: "Roboto Mono", monospace;
-  color: black;
+  background-color: black;
+}
+
+body {
+  background-color: black;
 }
 
 .title-image {
@@ -9,6 +13,9 @@
   /* position: absolute; */
   right: 100%;
   top: 8%;
+  margin-top: 15px;
+  margin-left: 15;
+  margin-right: 15;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -16,7 +23,7 @@
   font-family: "Roboto Mono", monospace;
   text-align: center;
   margin-top: 25px;
-  color: black;
+  color: white;
 }
 
 .willYouAttendAnswer {
@@ -24,7 +31,7 @@
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25;
-  color: black;
+  color: white;
 }
 
 .option {
@@ -35,8 +42,8 @@
 .yes {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  margin-top: 25px;
-  color: darkgreen;
+  margin-top: 35px;
+  /* color: darkgreen; */
   font-weight: bold;
 }
 
@@ -65,7 +72,7 @@
 
 .attending {
   margin-bottom: 25px;
-  color: black;
+  color: white;
 }
 
 .attendingButtons {
@@ -103,7 +110,7 @@
 #parrNo {
   font-size: 15px;
   font-family: "Roboto Mono", monospace;
-  color: black;
+  color: white
 }
 
 .hiddenDiv {
@@ -156,7 +163,7 @@
   width: 100%;
   /* padding: 10px; */
   text-align: center;
-  color: black;
+  color: whtie;
 }
 
 .italic {
@@ -178,7 +185,7 @@
   height: 30px;
   margin: auto;
   width: auto;
-  color: black;
+  color: white;
 }
 
 .reset {
@@ -211,7 +218,7 @@
 
 .kids {
   font-family: "Roboto Mono", monospace;
-  color: black;
+  color: white;
   margin-top: 25px;
   margin-bottom: 50px;
 }
