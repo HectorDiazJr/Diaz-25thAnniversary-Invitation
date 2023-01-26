@@ -15,32 +15,57 @@
 // });
 
 $("#yes").on("click", function (event) {
-  $("#header").html(
-    "Please refer to your text message to see the number of guests invited from your houshold.");
-    $('#header').addClass("yes");
-  $(".attending").html("Glad you can make it.");
+  $(".guestAttending").show();
+  $("#header").html("Glad you can make it.");
+  $("#header").addClass("yes");
+  $(".attending").hide();
   $("#yes").hide();
   $("#no").hide();
-  
+  var numGuest = prompt(
+    "How many Adults guests will be attending? Please refer to your text message to see number of Adults invited."
+  );
+  var numGuestInt = Number(numGuest);
+  if (numGuestInt === 1) {
+    $("#guest1").show();
+    $("#kids").show();
+    $(".sendButtons").show();
+  } else if (numGuestInt === 2) {
+    $("#guest1").show();
+    $("#guest2").show();
+    $("#kids").show();
+    $(".sendButtons").show();
+  } else if (numGuestInt === 3) {
+    $("#guest1").show();
+    $("#guest2").show();
+    $("#guest3").show();
+    $("#kids").show();
+    $(".sendButtons").show();
+  } else if (numGuestInt === 4) {
+    $("#guest1").show();
+    $("#guest2").show();
+    $("#guest3").show();
+    $("#guest4").show();
+    $("#kids").show();
+    $(".sendButtons").show();
+  } else if (numGuestInt === 5) {
+    $("#guest1").show();
+    $("#guest2").show();
+    $("#guest3").show();
+    $("#guest4").show();
+    $("#guest5").show();
+    $("#kids").show();
+    $(".sendButtons").show();
+  } else {
+    alert("Please enter the correct number of guest");
+    $(".attending").show();
+    $("#yes").show();
+    $("#no").show();
+  }
 });
-
-var parrNoGuest = '<p id="parrNo"><br>How many guests will be attending? Please refer to your text message to see number of guests invited.</br></p>';
-var howManyAttending = '<input id="howMany" placeholder="Enter #"></input>';
-var numberButton = '<button class="numberButton" id="numbutton" type="button">Confirm</button></a><br>'
-var emailForm ='<div class="emailForm"><form action="mailto:rosy@gmail.com" method="post" enctype="text/plain" class="bold">Name:<br><input type="text" name="Name" class="italic" placeholder="Name of Guest"><br><br>Enter Your first Meal Option:<br><input type="text" name="1st Meal Selection" class="italic" placeholder="Beef, Chicken, or Fish"><br><br>Enter Your second Meal Option:<br><input type="text" name="2nd Meal Option" class="italic" placeholder="Beef, Chicken, or Fish"><br><br><input type="submit" value="Send" class="respond"><input type="reset" value="Reset" class="respond reset"></form></div>'
-
-
-$("#yes").click(function(){
-    $(".attending").append(parrNoGuest);
-    $('.attending').append(howManyAttending);
-    $('.attending').append(numberButton);
-    $('.attending').append(emailForm);
-  });
-
-  $(".numberButton").click(function(){
-    console.log("did this work");
-  })
-
- 
-
-
+// var guestCount = $("#howMany")
+// var noGuestInt = Number(guestCount);
+// $("#numbutton").on("click", function (event) {
+//   if (noGuestInt===1) {
+//     $("#guest1").show();
+//   }
+// })

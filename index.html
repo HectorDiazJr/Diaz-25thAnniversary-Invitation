@@ -78,21 +78,83 @@
       </a><br>
 
       <a href="sms:6168908983&body=Sorry, I can't make it. Please give my seat to someone else."> <button
-          class="respond" id="no" type="button">Sorry, I (we) can't Make it. This will take you back to your text message to respond.</button>
+          class="respond" id="no" type="button">Sorry, I (we) can't Make it. This will take you back to your text
+          message to respond.</button>
       </a>
+
+      <!-- <div class="hiddenDiv guestAttending">
+        <p id="parrNo"><br>How many guests will be attending? Please refer to your text message to see number of guests
+          invited.</br></p>
+        <input id="howMany" placeholder="Enter #"><br></input>
+        <button class="numberButton" id="numbutton" type="button">Confirm</button></a><br>
+      </div> -->
+
+        <div>
+          <div class="emailForm">
+            <form action="mailto:rosy@gmail.com" method="post" enctype="text/plain" class="bold">
+
+              <div class="hiddenDiv" id="guest1">Name of Adult:<br><input type="text" name="Name" class="italic"
+                  placeholder="Name of Guest"><br><br>Enter Your first Meal
+                Option:<br><input type="text" name="1st Meal Selection" class="italic"
+                  placeholder="Beef, Chicken, or Fish"><br><br>Enter Your second Meal Option:<br><input type="text"
+                  name="2nd Meal Option" class="italic" placeholder="Beef, Chicken, or Fish"><br><br>
+              </div>
+
+              <div class="hiddenDiv" id="guest2">Name of Adult:<br>
+                <input type="text" name="Name" class="italic" placeholder="Name of 2nd Guest"><br><br>Enter Your first
+                Meal
+                Option:<br><input type="text" name="1st Meal Selection" class="italic"
+                  placeholder="Beef, Chicken, or Fish"><br><br>Enter Your second Meal Option:<br><input type="text"
+                  name="2nd Meal Option" class="italic" placeholder="Beef, Chicken, or Fish"><br><br>
+              </div>
+
+              <div class="hiddenDiv" id="guest3">Name of Adult:<br>
+                <input type="text" name="Name" class="italic" placeholder="Name of 3rd Guest"><br><br>Enter Your first
+                Meal
+                Option:<br><input type="text" name="1st Meal Selection" class="italic"
+                  placeholder="Beef, Chicken, or Fish"><br><br>Enter Your second Meal Option:<br><input type="text"
+                  name="2nd Meal Option" class="italic" placeholder="Beef, Chicken, or Fish"><br><br>
+              </div>
+
+              <div class="hiddenDiv" id="guest4">Name of Adult:<br>
+                <input type="text" name="Name" class="italic" placeholder="Name of 4th Guest"><br><br>Enter Your first
+                Meal
+                Option:<br><input type="text" name="1st Meal Selection" class="italic"
+                  placeholder="Beef, Chicken, or Fish"><br><br>Enter Your second Meal Option:<br><input type="text"
+                  name="2nd Meal Option" class="italic" placeholder="Beef, Chicken, or Fish"><br><br>
+              </div>
+
+              <div class="hiddenDiv" id="guest5">Name of Adult:<br>
+                <input type="text" name="Name" class="italic" placeholder="Name of 5th Guest"><br><br>Enter Your first
+                Meal
+                Option:<br><input type="text" name="1st Meal Selection" class="italic"
+                  placeholder="Beef, Chicken, or Fish"><br><br>Enter Your second Meal Option:<br><input type="text"
+                  name="2nd Meal Option" class="italic" placeholder="Beef, Chicken, or Fish"><br><br>
+              </div>
+              <div class="hiddenDiv" id="kids">How many kids will be attending. Please refer to you text message to see number of kids invited.<br>
+                <input type="text" name="Number of kids Attending" class="italic" placeholder="# of kids attending"><br><br>
+              </div>
+              <div class="hiddenDiv sendButtons">
+                <input type="submit" value="Send" class="respondEmail"><input type="reset" value="Reset"
+                  class="respondEmail">
+                  <p>Click on the Send button to send via Email. If you do not have email please text Rosy the information. Thank you.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+
 
     </div>
 
-    <div id="numberOfGuest"></div>
-
-  </div>
 
 
-
-  <!-- jquery link -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <!-- js sheet -->
-  <script type="text/javascript" src="invitation.js"></script>
+    <!-- jquery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- js sheet -->
+    <script type="text/javascript" src="invitation.js"></script>
 </body>
 
 </html>
