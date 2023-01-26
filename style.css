@@ -99,7 +99,7 @@ body {
   /* margin-bottom: 25px;
     margin: auto; */
   cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 darkgrey, 0 6px 20px 0 grey;
   color: black;
 }
 
@@ -208,11 +208,11 @@ body {
   /* margin-bottom: 25px;
         margin: auto; */
   cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 darkgrey, 0 6px 20px 0 grey;
   color: black;
 }
 
-.respond:hover {
+.respondEmail:hover {
   opacity: 0.6;
 }
 
@@ -232,4 +232,6 @@ body {
   font-weight: 25;
   color: white;
   margin-bottom: 40px;
+  display:inline-block
 }
+

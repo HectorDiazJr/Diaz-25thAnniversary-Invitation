@@ -14,6 +14,10 @@
 //     }
 // });
 
+var songReq = $(
+  '<a href="https://docs.google.com/spreadsheets/d/1rh5Tm7yrFpbQQxEhgDJAWWDREVdHP0E4kXENQDr5hnA/edit#gid=0"><br><br><text>Click here to add a song to our playlist!</text></a>'
+);
+
 $("#yes").on("click", function (event) {
   $(".guestAttending").show();
   $("#header").addClass("yes");
@@ -28,19 +32,29 @@ $("#yes").on("click", function (event) {
     $("#guest1").show();
     $("#kids").show();
     $(".sendButtons").show();
+    // $('.songRequest').show();
     $("#header").html("Glad you can make it.");
+    $(".kids").append(songReq);
+    $(songReq).addClass("song-request");
   } else if (numGuestInt === 2) {
     $("#guest1").show();
     $("#guest2").show();
     $("#kids").show();
     $(".sendButtons").show();
+    // $('.songRequest').show();
     $("#header").html("Glad you can make it.");
+    $(".kids").append(songReq);
+    $(songReq).addClass("song-request");
   } else if (numGuestInt === 3) {
     $("#guest1").show();
     $("#guest2").show();
     $("#guest3").show();
     $("#kids").show();
     $(".sendButtons").show();
+    // $('.songRequest').show();
+    $("#header").html("Glad you can make it.");
+    $(".kids").append(songReq);
+    $(songReq).addClass("song-request");
   } else if (numGuestInt === 4) {
     $("#guest1").show();
     $("#guest2").show();
@@ -48,7 +62,10 @@ $("#yes").on("click", function (event) {
     $("#guest4").show();
     $("#kids").show();
     $(".sendButtons").show();
+    // $('.songRequest').show();
     $("#header").html("Glad you can make it.");
+    $(".kids").append(songReq);
+    $(songReq).addClass("song-request");
   } else if (numGuestInt === 5) {
     $("#guest1").show();
     $("#guest2").show();
@@ -57,7 +74,10 @@ $("#yes").on("click", function (event) {
     $("#guest5").show();
     $("#kids").show();
     $(".sendButtons").show();
+    // $('.songRequest').show();
     $("#header").html("Glad you can make it.");
+    $(".kids").append(songReq);
+    $(songReq).addClass("song-request");
   } else {
     alert("Please enter the correct number of guest");
     $(".attending").show();
