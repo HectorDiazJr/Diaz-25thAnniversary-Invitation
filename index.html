@@ -44,10 +44,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#header">RSVP</a>
+            <a class="nav-link" href="#headerStory">Our Story</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Story</a>
+            <a class="nav-link" href="#header">RSVP</a>
           </li>
           <!-- <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
@@ -62,7 +62,7 @@
       <img class="title-image" src="images/RSVP.jpeg" alt="RSVP">
     </div>
 
-    <h3 class="willYouAttend" id="header">Please complete the questions below</h3>
+
 
     <!-- Will you be attending button -->
     <!-- <form class="center" id="willAttendId">
@@ -74,8 +74,39 @@
             </select>
         </form> -->
 
+    <h3 class="willYouAttend" id="headerStory">Our Story, 25 years in the making</h3>
+
+
+    <!-- carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/testimage1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/testimage2.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/testimage3.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End of carousel -->
+
+    <h3 class="willYouAttend" id="header">Please complete the questions below</h3>
+
     <div class="container-fluid center">
-      <h1 class="attending willYouAttend">Will you be attending?</h1>
+      <h1 class="attending">Will you be attending?</h1>
 
       <button class="respond center" id="yes" type="button">Yes, I (we) will be there</button>
       </a><br>
@@ -94,8 +125,10 @@
 
       <div class="row">
         <div class="emailForm col">
-          <form action="mailto:diazcelebration@gmail.com?&subject=Yes, I (we) will be there!" method="post" enctype="text/plain"
-            class="bold">
+          <form action="mailto:diazcelebration@gmail.com?&subject=Yes, I (we) will be there!" method="post"
+            enctype="text/plain" class="bold">
+
+            <!-- actual working code -->
 
             <div class="hiddenDiv" id="guest1">Name of Adult:<br><input type="text" name="Name of 1st Guest"
                 class="italic" placeholder="Name of Guest"><br><br>Enter Your first Meal
@@ -144,6 +177,8 @@
               <input type="text" name="Number of kids Attending" class="italic"
                 placeholder="# of kids attending"><br><br>
             </div>
+            <!-- working code above -->
+
             <div class="hiddenDiv sendButtons">
               <input type="submit" value="Send" class="respondEmail"><input type="reset" value="Reset"
                 class="respondEmail">
@@ -160,7 +195,7 @@
 
     </div>
 
-
+    <!-- end of actual working code -->
 
 
   </div>

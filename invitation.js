@@ -14,6 +14,7 @@
 //     }
 // });
 
+// actual working code
 var songReq = $(
   '<a href="https://docs.google.com/spreadsheets/d/1rh5Tm7yrFpbQQxEhgDJAWWDREVdHP0E4kXENQDr5hnA/edit#gid=0"><br><br><text>Click here to add a song to our playlist!</text></a>'
 );
@@ -85,10 +86,8 @@ $("#yes").on("click", function (event) {
     $("#no").show();
   }
 });
-// var guestCount = $("#howMany")
-// var noGuestInt = Number(guestCount);
-// $("#numbutton").on("click", function (event) {
-//   if (noGuestInt===1) {
-//     $("#guest1").show();
-//   }
-// })
+
+// end of actual working code
+
+
+
