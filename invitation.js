@@ -34,7 +34,7 @@ $("#yes").on("click", function (event) {
     $("#kids").show();
     $(".sendButtons").show();
     // $('.songRequest').show();
-    $("#header").html("Glad you can make it.");
+    $("#header").html("Glad you can make it.<br>Please scroll down");
     $(".kids").append(songReq);
     $(songReq).addClass("song-request");
   } else if (numGuestInt === 2) {
@@ -43,7 +43,7 @@ $("#yes").on("click", function (event) {
     $("#kids").show();
     $(".sendButtons").show();
     // $('.songRequest').show();
-    $("#header").html("Glad you can make it.");
+    $("#header").html("Glad you can make it.<br>Please scroll down");
     $(".kids").append(songReq);
     $(songReq).addClass("song-request");
   } else if (numGuestInt === 3) {
@@ -53,7 +53,7 @@ $("#yes").on("click", function (event) {
     $("#kids").show();
     $(".sendButtons").show();
     // $('.songRequest').show();
-    $("#header").html("Glad you can make it.");
+    $("#header").html("Glad you can make it.<br>Please scroll down");
     $(".kids").append(songReq);
     $(songReq).addClass("song-request");
   } else if (numGuestInt === 4) {
@@ -64,7 +64,7 @@ $("#yes").on("click", function (event) {
     $("#kids").show();
     $(".sendButtons").show();
     // $('.songRequest').show();
-    $("#header").html("Glad you can make it.");
+    $("#header").html("Glad you can make it.<br>Please scroll down");
     $(".kids").append(songReq);
     $(songReq).addClass("song-request");
   } else if (numGuestInt === 5) {
@@ -76,7 +76,7 @@ $("#yes").on("click", function (event) {
     $("#kids").show();
     $(".sendButtons").show();
     // $('.songRequest').show();
-    $("#header").html("Glad you can make it.");
+    $("#header").html("Glad you can make it.<br>Please scroll down.");
     $(".kids").append(songReq);
     $(songReq).addClass("song-request");
   } else {
