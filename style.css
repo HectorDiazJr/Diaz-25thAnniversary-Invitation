@@ -7,6 +7,11 @@ body {
   background-color: black;
 }
 
+/* .imageStory {
+  height:200%;
+  width:auto;
+} */
+
 .title-image {
   position: static;
   width: 100%;
