@@ -7,6 +7,11 @@ body {
   background-color: black;
 }
 
+.video {
+  width:"100%"; 
+  height:"auto";
+}
+
 /* .imageStory {
   height:200%;
   width:auto;
