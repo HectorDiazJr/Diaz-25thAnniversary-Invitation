@@ -3,6 +3,15 @@
   background-color: black;
 }
 
+.navImage {
+  width:30px;
+  height:24px;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+
 body {
   background-color: black;
 }
