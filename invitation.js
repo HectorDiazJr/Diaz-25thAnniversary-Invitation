@@ -16,7 +16,7 @@
 
 // actual working code
 var songReq = $(
-  '<a href="https://docs.google.com/spreadsheets/d/1rh5Tm7yrFpbQQxEhgDJAWWDREVdHP0E4kXENQDr5hnA/edit#gid=0"><br><br><text>Click here to add a song to our playlist!</text></a>'
+  '<a href="https://docs.google.com/spreadsheets/d/1rh5Tm7yrFpbQQxEhgDJAWWDREVdHP0E4kXENQDr5hnA/edit#gid=0"><br><br><text>Dont forget to Click here to add a song to our playlist!</text></a>'
 );
 
 $("#yes").on("click", function (event) {
