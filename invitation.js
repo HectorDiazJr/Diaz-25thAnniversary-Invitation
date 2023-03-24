@@ -26,7 +26,7 @@ $("#yes").on("click", function (event) {
   $("#yes").hide();
   $("#no").hide();
   var numGuest = prompt(
-    "How many Adults guests will be attending? Please refer to your text message to see number of Adults invited."
+    "How many ADULT guests will be attending? Please refer to your text message to see number of Adults invited."
   );
   var numGuestInt = Number(numGuest);
   if (numGuestInt === 1) {
