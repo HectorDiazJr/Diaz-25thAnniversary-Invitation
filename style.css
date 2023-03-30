@@ -190,7 +190,7 @@ body {
   width: 100%;
   /* padding: 10px; */
   text-align: center;
-  color: whtie;
+  color: white;
 }
 
 .italic {
@@ -217,6 +217,15 @@ body {
 
 .reset {
   margin-bottom: 50px;
+}
+
+.songRequest {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 .respondEmail {
@@ -262,3 +271,27 @@ body {
   display:inline-block
 }
 
+.white-section {
+  background-color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+.footer {
+  text-align: center;
+}
+
+.fa-2x {
+  color: black;
+}
+
+.end {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
