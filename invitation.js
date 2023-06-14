@@ -19,6 +19,12 @@ var songReq = $(
   '<a href="https://docs.google.com/spreadsheets/d/1rh5Tm7yrFpbQQxEhgDJAWWDREVdHP0E4kXENQDr5hnA/edit#gid=0"><br><br><text>Dont forget to Click here to add a song to our playlist!</text></a>'
 );
 
+// RSVP has expired
+
+// $("#yes").on("click", function (event) {
+//   alert("We apologize, this RSVP has closed. We would still like to invite you to join us for the dance, and to arrive no earlier than 6:30pm. Please click on that button if you would like to join us. Thank you")
+// })
+
 // $("#yes").on("click", function (event) {
 //   $(".guestAttending").show();
 //   $("#header").addClass("yes");
