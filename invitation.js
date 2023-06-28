@@ -21,9 +21,9 @@ var songReq = $(
 
 // RSVP has expired
 
-// $("#yes").on("click", function (event) {
-//   alert("We apologize, this RSVP has closed. We would still like to invite you to join us for the dance, and to arrive no earlier than 6:30pm. Please click on that button if you would like to join us. Thank you")
-// })
+$("#yes").on("click", function (event) {
+  alert("We apologize, this RSVP has closed. We would still like to invite you to join us for the dance. Please click on that button if you would like to join us. Thank you")
+})
 
 // $("#yes").on("click", function (event) {
 //   $(".guestAttending").show();
